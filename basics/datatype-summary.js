@@ -31,7 +31,8 @@ console.log(typeof myobj)
 console.log(typeof sym1);
 
 /*
-1) Primitive Datatypes
+1) Primitive Datatypes (These are basic, fundamental data types directly 
+                        supported by the programming language. They represent single, simple values)
        Number => number
        String  => string
        Boolean  => boolean
@@ -40,7 +41,8 @@ console.log(typeof sym1);
        Symbol  =>  symbol
        BigInt  =>  bigint
 
-2) Non-primitive Datatypes
+2) Non-primitive Datatypes  (These are more complex data types that can hold collections of data or 
+                            represent objects. They are often built upon primitive data types.)
        Arrays  =>  object
        Function  =>  function
        Object  =>  object
@@ -48,3 +50,37 @@ console.log(typeof sym1);
 
 
 */
+
+
+
+//************************************  Stack and Heap Memory ************************************//
+
+// Stack (Primitive) , Heap (Non-Primitive)
+
+
+// Stack dont changed just copy 
+
+let age = 25
+
+let anotherage = age
+
+anotherage = 23
+
+console.log(age); 
+console.log(anotherage);
+
+
+
+// heap  (call by reference change value in the orignal one)
+
+let userone = {
+    email: "user@google.com",
+    upi : "user@ybl"
+}
+
+let usertwo = userone
+
+usertwo.email = "SHivamhr"
+
+console.log(userone);
+console.log(usertwo);  // 

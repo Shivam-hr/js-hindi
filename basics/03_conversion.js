@@ -9,13 +9,14 @@ let score3 = undefined
 //console.log(typeof score1);
 
 
-//let valueInNumber = Number(score)
-//console.log(typeof valueInNumber);  number
+// let valueInNumber = Number(score)
+// console.log(typeof valueInNumber);  //number
+// console.log(valueInNumber);
 
 //console.log(valueInNumber); 33
 
-//let valueInNumber = Number(score2) number
-//console.log(typeof valueInNumber); 
+// let valueInNumber = Number(score2) //number
+// console.log(typeof valueInNumber); 
 
 //console.log(valueInNumber); 0
 
@@ -41,14 +42,14 @@ let score3 = undefined
 
 // "" => flase
 
-// "anything" => true
+// "anything else 0" => true
 
-let someNumber = 33.25
+// let someNumber = 33.25
 
-let stringNumber = String(someNumber)
-console.log(stringNumber);
+// let stringNumber = String(someNumber)
+// console.log(stringNumber);
 
-console.log(typeof stringNumber);
+// console.log(typeof stringNumber);
 
 
 
@@ -71,9 +72,9 @@ console.log(typeof stringNumber);
 // console.log("1" +2 + 2); // 122
 // console.log(1 +  2 +"2"); //32
 
-console.log(+true) // 1
+// console.log(+true) // 1
 
-let gamecounter = 100
-gamecounter++;
-++gamecounter;
-console.log(gamecounter);
+// let gamecounter = 100
+// gamecounter++;
+// ++gamecounter;
+// console.log(gamecounter);

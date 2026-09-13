@@ -13,7 +13,7 @@ console.log(name, price, instructor);
 
 
 // destructuring in function in react
-const navbar = () => {
+const navbar = ({company, location}) => {
 
 }
 

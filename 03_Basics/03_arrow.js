@@ -48,9 +48,21 @@ chai() // undefined
 
 // syntax of arrow function
 
-const add = (a, b) => {
-    return a + b;
-}
+// const add = (a, b) => {
+//     return a + b;
+// }
 
-console.log(add(2, 3)); // 5
+// console.log(add(2, 3)); // 5
 
+
+
+// implicit return 
+
+const addTwo = (num1 , num2) => num1 + num2;
+const addTwo2 = (num1 , num2) => (num1 + num2);
+const string = (num1 , num2) => ({username: "Shivam"}); // returning an object
+
+console.log(addTwo(2, 3)); 
+console.log(string(2, 3)); 
+
+// explicit return

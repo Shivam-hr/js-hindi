@@ -12,6 +12,9 @@
     </ul>
 </body>
     <script>
+
+        //addition of elements in the list using js 
+
         function addLanguage(langName) {
             const li = document.createElement('li');
             li.innerText = `${langName}`
@@ -33,6 +36,15 @@
             document.querySelector('.language').appendChild(li);
         }
         addOptiLang('C#');
+
+
+        //edit
+        const secondLang = document.querySelector('.language').children[0];
+        // console.log(secondLang);
+        secondLang.innerHTML = "TypeScript";
+
+        const lastlang = document.querySelector('.language').lastElementChild;
+        lastlang.remove();
 
     </script>
 </html>
